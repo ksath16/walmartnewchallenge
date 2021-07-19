@@ -17,6 +17,11 @@ export const Users = () => {
         fetchUsers()
     }, [])
     return <> {!apiError ? <div>
+
+        <h2>
+            All Users
+        </h2>
+        <div>All user an thier age</div>
         <table class="table table table-striped table-inverse table-responsive">
             <thead>
                 <tr>

@@ -28,7 +28,7 @@ export const ItemsDropDown = () => {
     }, [])
 
     return <>
-        <>{selectedItem && <>Selected Item : {selectedItem}</>}</>
+        <h2>Age Demographic of Users with  {selectedItem}</h2>
 
         <> <Dropdown onSelect={onChange}>
             <Dropdown.Toggle variant="primary" id="dropdown-basic">
